@@ -1,0 +1,53 @@
+@media screen and (max-width: 1024px) {
+  #Container {
+    width: 750px;
+  }
+  #CustomReviews {
+    padding: 40px 0px;
+  }
+  #CustomReviews #CustomReviewsContentwrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: stretch;
+    flex-wrap: stretch;
+  }
+  #CustomReviews #CustomReviewsContentwrapper #SingleReview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: stretch;
+    flex-wrap: stretch;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+  #StreamingMoments {
+    padding: 30px 0px;
+  }
+  #StreamingMoments #SingleMoments {
+    padding: 20px 0px;
+    width: 100%;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentImage {
+    width: 50%;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentImage img {
+    width: 100%;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentDesc {
+    width: 50%;
+    padding: 15px 20px;
+  }
+}

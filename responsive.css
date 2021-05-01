@@ -1,0 +1,165 @@
+@media screen and (max-width: 768px) {
+  #Container {
+    width: 90%;
+  }
+  #MainPage {
+    padding: 100px 0px 50px 0px;
+  }
+  #MainPage #MainpagecontentWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  #MainPage #MainpagecontentWrapper #MainPageImage {
+    width: 100%;
+    margin: auto;
+  }
+  #MainPage #MainpagecontentWrapper #MainPageImage img {
+    width: 100%;
+  }
+  #CustomReviews {
+    padding: 40px 0px;
+  }
+  #CustomReviews #CustomReviewsContentwrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  #CustomReviews #CustomReviewsContentwrapper #SingleReview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+  #StreamingMoments {
+    padding: 30px 0px;
+  }
+  #StreamingMoments #SingleMoments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+    padding: 20px 0px;
+    width: 100%;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentImage {
+    width: 100%;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentImage img {
+    width: 100%;
+  }
+  #StreamingMoments #SingleMoments #SingleMomentDesc {
+    padding: 15px 0px;
+    width: 100%;
+  }
+  #Services {
+    padding: 40px 0px;
+  }
+  #Services #ServiceContentWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  #Services #ServiceContentWrapper #SingleServices {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  #Anonymous {
+    padding: 50px 0px;
+  }
+  #Anonymous #AnonymousContentWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  #Anonymous #AnonymousContentWrapper #SingleAnonymous {
+    width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  #Anonymous #AnonymousContentWrapper #SingleAnonymous:last-child {
+    margin-bottom: 0px;
+  }
+  footer #FooterContentwrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  footer #FooterContentwrapper #FooterSingleContent {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
